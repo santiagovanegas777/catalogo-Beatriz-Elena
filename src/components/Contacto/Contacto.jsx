@@ -9,6 +9,7 @@ const Contacto = () => {
 
   const sendEmail = (e) => {
     e.preventDefault();
+    alert("mensaje enviado")
 
     emailjs
       .sendForm(
