@@ -12,8 +12,8 @@ const InfoDatosPersonales = () => {
     const goToProfile = () => {
         navigate("/profile");
     }
-    const goToCesta = () => {
-        navigate("/confirmarCompra");
+    const goToDelete = () => {
+        navigate("/delete");
     }
     
   return ( 
@@ -34,8 +34,8 @@ const InfoDatosPersonales = () => {
               Modificar datos personales
             </button>
             <p></p>
-            <button onClick={goToCesta} className="register-button">
-              Ver tus productos
+            <button onClick={goToDelete} className="register-button">
+             Eliminar tu usuario
             </button>
             </div>
         </div>

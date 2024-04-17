@@ -30,6 +30,7 @@ import AdminUsers from  "./components/Admin/AdminUsers/AdminUsers"
 import { useNavigate } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
  import Filtro from "./components/Shared/Filtro";
+import Delete from "./components/Profile/Delete";
 
 
 function App() {
@@ -110,6 +111,10 @@ function App() {
 
           <Route path="/profile" element={
               <AuthRoute user={user} component={<Profile user={user} />} />
+            }
+          />
+          <Route path="/delete" element={
+              <AuthRoute user={user} component={<Delete user={user} />} />
             }
           />
           <Route path="/admin" element={
