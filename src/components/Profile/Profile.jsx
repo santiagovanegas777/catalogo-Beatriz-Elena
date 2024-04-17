@@ -70,7 +70,7 @@ const Profile = () => {
               onChange={changeInput}
               value={user.email}
             />
-            <label htmlFor="password">Email</label>
+            <label htmlFor="password">Password</label>
             <input
               className="register-input-email"
               type="password"
