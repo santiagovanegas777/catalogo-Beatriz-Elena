@@ -70,6 +70,16 @@ const Profile = () => {
               onChange={changeInput}
               value={user.email}
             />
+            <label htmlFor="password">Email</label>
+            <input
+              className="register-input-email"
+              type="password"
+              name="password"
+              placeholder="password"
+              id="password"
+              onChange={changeInput}
+              value={user.password}
+            />
             
             
             <label htmlFor="username">Nombre de usuario</label>
