@@ -1,19 +1,20 @@
 import React from 'react'
 import userContext from '../Context/userContext';
 import { useContext } from 'react';
-// import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 
 const Delete = () => {
 
   const {user, setUser} = useContext(userContext);
+  const navigate = useNavigate();
   
   const sessionToken = JSON.parse(sessionStorage.getItem('token'));
 
     console.log(user);
 
 
-    const updateDataUsersAPI = async () => {
+    const deleteDataUsersAPI = async () => {
       console.log(sessionToken);
       console.log(user);
       const response = await fetch(`https://api-unas.vercel.app/users/delete/${user._id}`, {
@@ -47,7 +48,8 @@ const Delete = () => {
 
     const submitForm = (event) => {
       event.preventDefault();
-      updateDataUsersAPI(user);
+      deleteDataUsersAPI(user);
+      navigate("/login");
       
       
     };

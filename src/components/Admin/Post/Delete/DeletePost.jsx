@@ -2,8 +2,6 @@ import React, { useEffect, useState } from 'react';
 import './DeletePost.css';
 
 
-
-
 function EliminarPost() {
   const [posts, setPosts] = useState([]);
 

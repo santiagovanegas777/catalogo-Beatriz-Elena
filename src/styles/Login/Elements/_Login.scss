@@ -30,6 +30,11 @@ aside.login{
     @media(max-width:376px){
         width: 100%;
     }
+    @media(max-width:426px){
+        width: 100%;
+    }
+    
+    
 
 }
 
@@ -53,6 +58,7 @@ aside.login > h2{
         margin-right: -23%;
         margin-top: 30%;
     }
+   
 }
 
 aside.login > p{

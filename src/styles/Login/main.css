@@ -167,6 +167,11 @@ aside.login {
     width: 100%;
   }
 }
+@media (max-width: 426px) {
+  aside.login {
+    width: 100%;
+  }
+}
 
 aside.login-email {
   z-index: 5;

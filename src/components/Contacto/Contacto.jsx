@@ -1,15 +1,18 @@
 import React, { useRef } from "react";
 import "../../styles/Contacto/main.css";
 import emailjs from "@emailjs/browser";
+import { useNavigate } from 'react-router-dom';
 // import { FaEnvelope } from "react-icons/fa"
 // import { FaPhoneAlt } from "react-icons/fa"
 
 const Contacto = () => {
+  const navigate = useNavigate();
   const form = useRef();
 
   const sendEmail = (e) => {
     e.preventDefault();
     alert("mensaje enviado")
+    navigate("/");
 
     emailjs
       .sendForm(

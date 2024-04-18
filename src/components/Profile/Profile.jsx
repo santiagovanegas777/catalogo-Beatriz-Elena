@@ -1,12 +1,15 @@
 import React from 'react'
 import userContext from '../Context/userContext';
 import { useContext } from 'react';
-// import { Link } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
+
 
 
 const Profile = () => {
 
   const {user, setUser} = useContext(userContext);
+  const navigate = useNavigate();
+  
   
   const sessionToken = JSON.parse(sessionStorage.getItem('token'));
 
@@ -48,6 +51,7 @@ const Profile = () => {
     const submitForm = (event) => {
       event.preventDefault();
       updateDataUsersAPI(user);
+      navigate("/infoDatosPersonales");
       
       
     };
