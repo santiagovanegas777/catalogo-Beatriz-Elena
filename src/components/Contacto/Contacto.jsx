@@ -31,7 +31,8 @@ const Contacto = () => {
       );
   };
   return (
-    <>
+    
+    <div className="contenedor">
       <form ref={form} onSubmit={sendEmail}>
         {/* <label>Name</label>
         <input type="text" name="user_name" />
@@ -58,9 +59,10 @@ const Contacto = () => {
             rows="3"
           ></textarea>
         </div>
-        <input class="btn btn-primary" type="submit" value="Send"/>
+        <input class="btn btn-primary"  type="submit" value="Send"/>
       </form>
-    </>
+      </div>
+    
   );
 };
 
