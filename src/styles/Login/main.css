@@ -162,14 +162,19 @@ aside.login {
   background-color: rgb(32, 31, 31);
   z-index: 2;
 }
-@media (max-width: 376px) {
+@media (min-width: 320px) {
   aside.login {
     width: 100%;
   }
 }
-@media (max-width: 426px) {
+@media (min-width: 425px) {
   aside.login {
     width: 100%;
+  }
+}
+@media (min-width: 768px) {
+  aside.login {
+    width: 35%;
   }
 }
 
@@ -190,10 +195,16 @@ aside.login > h2 {
   margin-right: 15%;
   margin-top: 30%;
 }
-@media (max-width: 376px) {
+@media (min-width: 320px) {
   aside.login > h2 {
     margin-right: -23%;
     margin-top: 30%;
+  }
+}
+@media (min-width: 425px) {
+  aside.login > h2 {
+    margin-right: -29%;
+    margin-top: 24%;
   }
 }
 
@@ -202,10 +213,16 @@ aside.login > p {
   color: #666565;
   margin-right: 15%;
 }
-@media (max-width: 376px) {
+@media (min-width: 320px) {
   aside.login > p {
     margin-right: -19%;
     margin-top: 40px;
+  }
+}
+@media (min-width: 425px) {
+  aside.login > p {
+    margin-right: -26%;
+    margin-top: 15px;
   }
 }
 
@@ -231,10 +248,23 @@ aside.login > p {
   color: white;
   transition: 0.5s;
 }
-@media (max-width: 376px) {
+@media (min-width: 320px) {
   .name {
     width: 153%;
     margin-left: -13%;
+  }
+}
+@media (min-width: 425px) {
+  .name {
+    width: 162%;
+    margin-left: -15%;
+  }
+}
+@media (min-width: 768px) {
+  .name {
+    width: 162%;
+    margin-left: -12%;
+    margin-top: 13px;
   }
 }
 
@@ -254,11 +284,25 @@ aside.login > p {
   transition: 0.6s;
   white-space: nowrap;
 }
-@media (max-width: 376px) {
+@media (min-width: 320px) {
   .div-label {
     width: 40px;
     margin-top: -9px;
     margin-left: 71px;
+  }
+}
+@media (min-width: 425px) {
+  .div-label {
+    width: 40px;
+    margin-top: -11px;
+    margin-left: 108px;
+  }
+}
+@media (min-width: 768px) {
+  .div-label {
+    width: 40px;
+    margin-top: -1px;
+    margin-left: 65px;
   }
 }
 
@@ -289,7 +333,15 @@ button.login-button {
   height: 7%;
   padding: 0 6%;
 }
-@media (max-width: 376px) {
+@media (min-width: 320px) {
+  button.login-button {
+    width: 40%;
+    margin-left: 66px;
+    margin-top: 30px;
+    text-align: center;
+  }
+}
+@media (min-width: 425px) {
   button.login-button {
     width: 40%;
     margin-left: 66px;
@@ -323,11 +375,18 @@ button.next-button {
   width: 8vw;
   height: 8%;
 }
-@media (max-width: 376px) {
+@media (min-width: 320px) {
   button.next-button {
     width: 169px;
     margin-left: 50px;
     margin-top: 49px;
+  }
+}
+@media (min-width: 425px) {
+  button.next-button {
+    width: 163px;
+    margin-left: 47px;
+    margin-top: 71px;
   }
 }
 
@@ -346,7 +405,7 @@ div.error {
   flex-direction: column;
   gap: 15%;
 }
-@media (max-width: 376px) {
+@media (min-width: 320px) {
   .register_login {
     width: 153px;
     margin-left: 47px;
@@ -365,4 +424,10 @@ div.error {
 
 .back_home {
   margin-top: 5%;
+}
+@media (min-width: 425px) {
+  .back_home {
+    width: 153px;
+    margin-left: 2px;
+  }
 }/*# sourceMappingURL=main.css.map */

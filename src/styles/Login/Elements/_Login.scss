@@ -27,11 +27,14 @@ aside.login{
     border: 3px solid black;
     background-color: rgb(32, 31, 31);
     z-index: 2;
-    @media(max-width:376px){
+    @media(min-width:320px){
         width: 100%;
     }
-    @media(max-width:426px){
+    @media(min-width:425px){
         width: 100%;
+    }
+    @media(min-width:768px){
+        width: 35%;
     }
     
     
@@ -54,9 +57,13 @@ aside.login > h2{
     font-size: 2.2em;
     margin-right: 15%;
     margin-top: 30%;
-    @media(max-width:376px){
+    @media(min-width:320px){
         margin-right: -23%;
         margin-top: 30%;
+    }
+    @media(min-width:425px){
+        margin-right: -29%;
+        margin-top: 24%;
     }
    
 }
@@ -65,9 +72,13 @@ aside.login > p{
     width: 50%;
     color: #666565;
     margin-right: 15%;
-    @media(max-width:376px){
+    @media(min-width:320px){
         margin-right: -19%;
         margin-top: 40px;
+    }
+    @media(min-width:425px){
+        margin-right: -26%;
+    margin-top: 15px;
     }
 }
 
@@ -77,6 +88,7 @@ aside.login > p{
     width: 50%;
     margin-right: 15%;
     margin-top: 20%;
+   
 }
 
 .name{
@@ -92,11 +104,23 @@ aside.login > p{
     font-size: 1.2em;
     color: white;
     transition: 0.5s;
-    @media(max-width:376px){
+    @media(min-width:320px){
         width: 153%;
         margin-left: -13%;
     }
-
+    @media(min-width:425px){
+        width: 162%;
+        margin-left: -15%;
+    
+    }
+    @media(min-width:768px){
+        width: 162%;
+        margin-left: -12%;
+        margin-top: 13px;
+    
+    }
+    
+  
 }
 
 .name:focus{
@@ -114,11 +138,25 @@ aside.login > p{
     color: #888888;
     transition: 0.6s;
     white-space: nowrap;
-    @media(max-width: 376px){
+    @media(min-width: 320px){
         width: 40px;
         margin-top: -9px;
         margin-left: 71px;
     }
+    @media(min-width:425px){
+        width: 40px;
+        margin-top: -11px;
+        margin-left: 108px;
+    
+    }
+    @media(min-width:768px){
+        width: 40px;
+        margin-top: -1px;
+        margin-left: 65px;
+    
+    }
+
+
 }
 
 .input-box > :is(.name:focus, .has-value) ~ .div-label{
@@ -148,7 +186,13 @@ button.login-button{
     width: 15vw;
     height: 7%;
     padding: 0 6%;
-    @media(max-width:376px){
+    @media(min-width:320px){
+        width: 40%;
+        margin-left: 66px;
+        margin-top: 30px;
+        text-align: center;
+    }
+    @media(min-width:425px){
         width: 40%;
         margin-left: 66px;
         margin-top: 30px;
@@ -160,6 +204,7 @@ button.back{
     align-self: flex-start;
     margin: 5%;
     font-size: 2em;
+    
 }
 
 button.back{
@@ -179,10 +224,15 @@ button.next-button{
     justify-content: space-around;
     width: 8vw;
     height: 8%;
-    @media(max-width: 376px){
+    @media(min-width: 320px){
         width: 169px;
         margin-left: 50px;
         margin-top: 49px;
+    }
+    @media(min-width: 425px){
+        width: 163px;
+        margin-left: 47px;
+        margin-top: 71px;
     }
 }
 
@@ -200,7 +250,7 @@ div.error{
     display: flex;
     flex-direction: column;
     gap: 15%;
-    @media(max-width: 376px){
+    @media(min-width: 320px){
         width: 153px;
         margin-left: 47px;
     }
@@ -218,4 +268,9 @@ div.error{
 
 .back_home{
     margin-top: 5%;
+    @media(min-width: 425px){
+        width: 153px;
+        margin-left: 2px;
+    }
+    
 }
