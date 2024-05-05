@@ -2,7 +2,7 @@ import React from "react";
 import { useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 
-import "../../styles/Actividades/DetalleActividades.css";
+import "../../styles/Estilos/DetalleActividades.css";
 
 const DetalleEstilos = () => {
   const { idEstilo } = useParams();

@@ -5,7 +5,7 @@ import {useEffect, useState} from 'react';
 //import ListEstilos from './ListEstilos';
 import Card from './Card';
  import Pagination from '../Pagination/Pagination';
-import '../../styles/Actividades/ListActividades.css'
+import '../../styles/Estilos/ListActividades.css'
 
 
 const Estilos = () => {

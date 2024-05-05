@@ -1,4 +1,4 @@
-import '../../styles/Actividades/ListActividades.css';
+import '../../styles/Estilos/ListActividades.css';
 
 function Card({ itemm }) {
     return (

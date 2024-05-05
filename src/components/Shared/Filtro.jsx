@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 // import { Link } from "react-router-dom";
 //  import Card from "../Actividades/Card";
 import ListCharacter from "./ListCharates";
-import "../../styles/Actividades/ListActividades.css";
+import "../../styles/Estilos/ListActividades.css";
 
 const Filtro = () => {
   const [characters, setCharacters] = useState([]);

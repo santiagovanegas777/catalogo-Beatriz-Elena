@@ -19,16 +19,8 @@ const Footer = () => {
             Catalogo
           </Link>
         </li>
-        <li>
-          <Link className="footer_list_element" to="/register">
-            Registro
-          </Link>
-        </li>
-        <li>
-          <Link className="footer_list_element" to="/login">
-            Login
-          </Link>
-        </li>
+       
+       
         
         <li>
           <Link className="footer_list_element" to="/contacto">
@@ -36,11 +28,7 @@ const Footer = () => {
           </Link>
         </li>
         
-        <li>
-          <Link className="footer_list_element" to="/about">
-            Acerca de nosotros
-          </Link>
-        </li>
+       
         <li>
           <Link className="footer_list_element" to="/terminosycondiciones">
             Términos y condiciones

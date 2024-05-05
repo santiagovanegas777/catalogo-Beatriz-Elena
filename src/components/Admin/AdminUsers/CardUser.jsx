@@ -1,4 +1,4 @@
-import '../../../styles/Actividades/ListActividades.css';
+import '../../../styles/Estilos/ListActividades.css';
 
 function CardUser({ itemm }) {
     return (
@@ -10,8 +10,7 @@ function CardUser({ itemm }) {
             Apellido: {itemm.apellidos}</h3>
            <h3 className="actividad-name">
            Nombre:{itemm.nombre}</h3>
-            <h3 className="actividad-name">
-            Direccion:{itemm.direccion}</h3>
+            
             <h3 className="actividad-name">
            Email:{itemm.email}</h3>
             <h3 className="actividad-name">

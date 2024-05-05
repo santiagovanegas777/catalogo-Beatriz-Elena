@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import '../../styles/Actividades/ListActividades.css';
+import '../../styles/Estilos/ListActividades.css';
 
 
 function ListCharacter({ characters }) {

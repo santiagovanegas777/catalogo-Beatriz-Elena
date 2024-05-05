@@ -15,8 +15,8 @@ import AuthRoute from "./components/AuthRoute/AuthRoute";
 import Profile from "./components/Profile/Profile";
 import Logout from "./components/Logout";
 
-import Estilos from "./components/Actividades/Estilos";
-import DetalleEstilos from "./components/Actividades/DetalleEstilos";
+import Estilos from "./components/Estilos/Estilos";
+import DetalleEstilos from "./components/Estilos/DetalleEstilos";
 
 
 import {API} from './services/api';
