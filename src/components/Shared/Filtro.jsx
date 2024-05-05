@@ -28,7 +28,7 @@ const Filtro = () => {
         <select name="" id="" onChange={(ev) => setName(ev.target.value)}>
           <option value="combinados">combinados</option>
           <option value="zapatos">zapatos</option>
-          <option value="prueba">prueba</option>
+          
           <option value="pajaros">pajaros</option>
         </select>
       </div>
