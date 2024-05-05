@@ -5,10 +5,10 @@ const Carrouselp = () => {
         <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="https://res.cloudinary.com/dz3qrv6vz/image/upload/v1714922562/estilo/qihx9bazn0owphvjortl.jpg" class="imgCarrousel" alt="bob esponja"/>
+            <img src="https://res.cloudinary.com/dz3qrv6vz/image/upload/v1714922544/estilo/tesfyxo8ysuq08jsilga.jpg" class="imgCarrousel" alt="bob esponja"/>
           </div>
-          <div class="carousel-item active">
-            <img src="https://res.cloudinary.com/dz3qrv6vz/image/upload/v1714923879/estilo/orrojipri82yyuas1ec8.jpg" class="imgCarrousel" alt="bob esponja"/>
+          <div class="carousel-item">
+            <img src="https://res.cloudinary.com/dz3qrv6vz/image/upload/v1714922562/estilo/qihx9bazn0owphvjortl.jpg" class="imgCarrousel" alt="bob esponja"/>
           </div>
           
           <div class="carousel-item">
@@ -18,9 +18,12 @@ const Carrouselp = () => {
             <img src="https://res.cloudinary.com/dz3qrv6vz/image/upload/v1714922532/estilo/nqy9o6kjsiiamoszxwj2.jpg" class="imgCarrousel" alt="prueba"/>
           </div>
           <div class="carousel-item">
-            <img src="https://res.cloudinary.com/dz3qrv6vz/image/upload/v1714922544/estilo/tesfyxo8ysuq08jsilga.jpg" class="imgCarrousel" alt="prueba"/>
+            <img src="https://res.cloudinary.com/dz3qrv6vz/image/upload/v1714923879/estilo/orrojipri82yyuas1ec8.jpg" class="imgCarrousel" alt="prueba"/>
           </div>
         </div>
+        
+        
+       
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControlsNoTouching" data-bs-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
           <span class="visually-hidden">Previous</span>
