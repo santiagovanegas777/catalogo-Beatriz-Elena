@@ -5,17 +5,12 @@ const Carrouselp = () => {
         <div id="carouselExampleControlsNoTouching" class="carousel slide" data-bs-touch="false">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="https://res.cloudinary.com/dz3qrv6vz/image/upload/v1710067799/estilo/uwtasxilwchi8kwv52jh.jpg" class="imgCarrousel" alt="bob esponja"/>
+            <img src="https://res.cloudinary.com/dz3qrv6vz/image/upload/v1714922562/estilo/qihx9bazn0owphvjortl.jpg" class="imgCarrousel" alt="bob esponja"/>
           </div>
-          <div class="carousel-item">
-            <img src="https://res.cloudinary.com/dz3qrv6vz/image/upload/v1710075288/estilo/otgbcdl2pgvsejlo5huk.jpg" class="imgCarrousel" alt="gatos"/>
+          <div class="carousel-item active">
+            <img src="https://res.cloudinary.com/dz3qrv6vz/image/upload/v1714923879/estilo/orrojipri82yyuas1ec8.jpg" class="imgCarrousel" alt="bob esponja"/>
           </div>
-          <div class="carousel-item">
-            <img src="https://res.cloudinary.com/dz3qrv6vz/image/upload/v1714922562/estilo/qihx9bazn0owphvjortl.jpg" class="imgCarrousel" alt="prueba"/>
-          </div>
-          <div class="carousel-item">
-            <img src="https://res.cloudinary.com/dz3qrv6vz/image/upload/v1714922427/estilo/b7veequnlvgzqbeci0bj.jpg" class="imgCarrousel" alt="prueba"/>
-          </div>
+          
           <div class="carousel-item">
             <img src="https://res.cloudinary.com/dz3qrv6vz/image/upload/v1714922473/estilo/agxsvagvs45vjpa2wvc5.jpg" class="imgCarrousel" alt="prueba"/>
           </div>
