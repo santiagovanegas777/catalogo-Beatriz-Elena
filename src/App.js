@@ -4,7 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import userContext from "./components/Context/userContext";
 import Home from "./components/Home/Home";
 
-import NavBar from "./components/NavBar/NavBar";
+
 import Login from "./components/Login/Login";
 import Contacto from "./components/Contacto/Contacto";
 
@@ -31,6 +31,7 @@ import { useNavigate } from "react-router-dom";
 import Footer from "./components/Footer/Footer";
  import Filtro from "./components/Shared/Filtro";
 import Delete from "./components/Profile/Delete";
+import NavBarP from "./components/NavBar/NavBarP";
 
 
 function App() {
@@ -72,7 +73,7 @@ function App() {
           {/* <div className="logo_container">
             <img src="https://img.freepik.com/vector-gratis/vector-degradado-logotipo-colorido-pajaro_343694-1365.jpg" alt="not working" />
           </div> */}
-          <NavBar user={user} />
+          <NavBarP user={user} />
          
         </header>
 
@@ -123,7 +124,7 @@ function App() {
           <Route path="/admin/Home" element={
             <AuthRoute user={user} component={<Admin user={user} />} />
           } />
-          <Route path="/admin/usuarios" element={
+          <Route path="/users/pruebaAll" element={
             <AuthRoute user={user} component={<AdminUsers user={user} />} />
           } />
           <Route path="/admin/post" element={

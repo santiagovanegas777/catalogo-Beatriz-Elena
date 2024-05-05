@@ -12,15 +12,15 @@ function Admin() {
     <h1>Página de Administrador</h1>
 
       <Routes>
-      {/*<Route path="/home" element={<Admin/>} />*/}
-        <Route path="/usuarios" element={<AdminUsers />} />
+      <Route path="/admin" element={<Admin/>} />
+        <Route path="/users/pruebaAll" element={<AdminUsers />} />
         <Route path="/post" element={<AdminPost />} />
 
       </Routes>
 
       <div className="botones-contenedor">
       <Link to="/admin" className="button">Home</Link>
-      <Link to="/admin/usuarios" className="button">Usuarios</Link>
+      <Link to="/users/pruebaAll" className="button">Usuarios</Link>
       <Link to="/admin/post" className="button">Post</Link>
       </div>
     </div>

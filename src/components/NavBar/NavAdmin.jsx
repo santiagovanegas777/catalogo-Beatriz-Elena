@@ -6,25 +6,31 @@ import { useContext } from 'react';
 // import Imput from '../Shared/Share';
 
 
-const NavBar = () => {
+const NavBarAdmin = () => {
 
   const {user} = useContext(userContext);
   
   return (
    
 
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+      <nav >
   <div class="container-fluid">
-    <Link to="/" class="navbar-brand" >Home</Link>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  
+    {/* <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
-    </button>
+    </button> */}
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-       
-        <li class="nav-item">
-        <Link to="/estilos" class="nav-link active"  >Catalogo</Link>
+      <li class="nav-item">
+        <Link to="filtro" class="nav-link active"  >Categorias</Link>
         </li>
+        <li class="nav-item">
+        <Link to="/users/pruebaAll" class="nav-link active"  >Usuarios</Link>
+        </li>
+        <li class="nav-item">
+        <Link to="/admin/post" class="nav-link active"  >Post</Link>
+        </li>
+        
         {user ?
           <li class="nav-item">
             <Link to="/logout" class="nav-link"  >Logout</Link>
@@ -32,12 +38,8 @@ const NavBar = () => {
               <li class="nav-item">
               <Link to="/login" class="nav-link" >Login</Link>
             </li>}
-            <li class="nav-item">
-        <Link to="/contacto" class="nav-link">Contacto</Link>
-        </li>
-        <li class="nav-item">
-        <Link to="filtro" class="nav-link active"  >Categorias</Link>
-        </li>
+           
+       
         <li class="nav-item dropdown">
           <li class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
           <p>{user != null ? user.username : "Account"}</p>
@@ -66,5 +68,4 @@ const NavBar = () => {
   )
 }
 
-export default NavBar
-
+export default NavBarAdmin
